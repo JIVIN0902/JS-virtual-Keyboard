@@ -1,0 +1,64 @@
+* {
+	outline: none;
+}
+
+body {
+	background-color: lightgreen;
+}
+.result {
+	margin-left: 150px;
+	width: 1000px;
+	height: 200px;
+	border: 3px solid black;
+	padding: 10px;
+	display: flex;
+}
+.blinker {
+	width: 3px;
+	height: 20px;
+	background-color: black;
+	animation: gud 0.5s infinite;
+}
+.caps {
+	background-color: lightblue;
+}
+@keyframes gud {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.keyboard {
+	border-radius: 50px;
+	box-shadow: 7px 7px 7px 7px rgba(0,0,0,0.7);
+	display: flex;
+	flex-direction: column;
+	background-color: #6f00ff;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+.keyboard button {
+	background-color:  none;
+	width: 100px;
+	height: 40px;
+}
+
+.key {
+	background-color: #fff0f5;
+	border-radius: 10px 10px 10px 10px;
+	border: 0px;
+}
+button:active {
+	opacity: 0.7
+}
+.krow {
+	padding: 10px;
+}
+h1 {
+	text-align: center;
+	color: orange;
+}
